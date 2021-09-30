@@ -7,9 +7,9 @@ public class OddEven
       int a[]=new int[5];
      try
       {
-       FileWriter f1=new FileWriter("D:\OOPS\odd.txt");
-       FileWriter f2=new FileWriter("D:\OOPS\even.txt");
-        FileWriter oe = new FileWriter("D:\OOPS\oddeven.txt");
+       FileWriter f1=new FileWriter("D:\\OOPS\\odd.txt");
+       FileWriter f2=new FileWriter("D:\\OOPS\\even.txt");
+        FileWriter oe = new FileWriter("D:\\OOPS\\oddeven.txt");
        Scanner sc=new Scanner(System.in);
        System.out.println(" enter any 5 no.s");
        for (int i=0; i<5; i++)
