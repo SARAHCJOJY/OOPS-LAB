@@ -5,9 +5,9 @@ public class ReadWrite
     public static void main(String args[])throws IOException,FileNotFoundException
     {
       int i;
-      File f1=new File("D:\OOPS\write.txt");
+      File f1=new File("D:\\OOPS\\write.txt");
       FileInputStream fin=new FileInputStream(f1);
-      FileWriter myWriter = new FileWriter("D:\OOPS\write.txt"); 
+      FileWriter myWriter = new FileWriter("D:\\OOPS\\write.txt"); 
  Scanner sc=new Scanner(System.in);
       System.out.println("Write a content to the files:");
       String a[]=new String[4];
